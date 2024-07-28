@@ -1,0 +1,64 @@
+/* Container for the entire navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.1));
+  padding: 10px 20px;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Styling for the title */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Container for the navigation options */
+.navopp {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Individual navigation option */
+.navopp li {
+  margin: 0 15px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for navigation options */
+.navopp li:hover {
+  color: #e50914; /* Netflix red */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navopp {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navopp li {
+    margin: 10px 0;
+  }
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+
