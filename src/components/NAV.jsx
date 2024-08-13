@@ -7,6 +7,7 @@ import Home from "./Home";
 import { Paper } from "@mui/material";
 import Desc from "./Desc";
 import Footer from "./Footer";
+import ChatBot from "./ChatBot";
 
 function NAV() {
   return (
@@ -33,7 +34,7 @@ function NAV() {
       </Parallax>
 
       <Parallax strength={-600} bgImage={fly}>
-      <div>
+      <div className="content">
             <Paper className="Pep"><p className="text-content">Your one stop renting Sollution .<br/>
             All your renting needs in one stop..!</p></Paper>
       </div>

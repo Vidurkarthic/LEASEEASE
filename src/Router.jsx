@@ -13,6 +13,9 @@ import Prod3 from './components/Prod3';
 import Prod4 from './components/Prod4';
 import Cart from './components/Cart';
 import { CartProvider } from './components/CartContext';
+import ProfilePage from './components/ProfilePage';
+import SearchResults from './components/SearchResults';
+
 
 const AppRouter = () => {
   return (
@@ -30,6 +33,8 @@ const AppRouter = () => {
           <Route path="/product3" element={<Prod3 />} />
           <Route path="/product4" element={<Prod4 />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/search" element={<SearchResults />} />
         </Routes>
       </Router>
     </CartProvider>

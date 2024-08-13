@@ -1,5 +1,5 @@
-.total {
-    background-image: url('https://img.freepik.com/free-photo/arrangement-black-friday-shopping-carts-with-copy-space_23-2148667047.jpg');
+/* .total {
+    background-image: url('https://i.pinimg.com/originals/b4/82/c5/b482c5b44fc5edcf0620a1dfb1d42e8e.gif');
     width: 100%;
     height: 100%;
     position: fixed;
@@ -19,4 +19,40 @@
     padding-bottom: 20px;
     opacity: 65%;
     
-}
+} */
+ /* Style.css */
+
+@keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .total {
+    background-image: url('https://i.pinimg.com/originals/b4/82/c5/b482c5b44fc5edcf0620a1dfb1d42e8e.gif');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .userContainer {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 6%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    opacity: 85%;
+    animation: slideUp 1s ease-out;
+  }
+  

@@ -1,0 +1,74 @@
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.policies {
+  background-image: url("https://i.gifer.com/7RW.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.policies-container {
+  font-family: 'Arial', sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: rgba(165, 165, 165, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  animation: slideUp 1s ease-out;
+}
+
+.policies-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.policies-header h1 {
+  font-size: 2.5rem;
+  color: #0d0d0d;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.policies-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.policy-section {
+  background: #484848;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.policy-section:hover {
+  transform: scale(1.02);
+}
+
+.policy-section h2 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.policy-section p {
+  font-size: 1.1rem;
+  color: #fff4f4;
+  line-height: 1.8;
+  margin: 0;
+}

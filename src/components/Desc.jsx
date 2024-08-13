@@ -23,7 +23,7 @@ Once selected, expert logistics teams coordinate swift and careful delivery, whi
     </div> */}
     <div style={{display: 'flex',flexDirection: 'row',justifyContent:'space-evenly',margin:'20px'}}>
         <Container sx={{marginTop:"10px"}}>
-            <img src="C:\Users\VIDUR KARTHIC\Downloads\Untitled design.gif" alt="img" style={{height:'50vh',width:'40vw'}}/>
+            <img src="https://i.pinimg.com/originals/3f/c3/2b/3fc32b3699a73c4a172720cc51b24e19.gif" alt="img" style={{height:'50vh',width:'40vw'}}/>
         </Container>
         <Container>
             <div style={{color:'white'}}>
@@ -46,4 +46,4 @@ Our commitment is to bring comfort and simplicity to your life, making high-qual
   )
 }
 
-export default Desc
+export default Desc;

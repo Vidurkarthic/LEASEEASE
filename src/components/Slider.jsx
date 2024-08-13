@@ -9,7 +9,7 @@ const spanStyle = {
   color: '#000000',
 };
 
-const divStyle = {
+const divStyle = {  
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
@@ -20,16 +20,16 @@ const divStyle = {
 
 const slideImages = [
   {
-    url: 'https://cdn.mos.cms.futurecdn.net/95zaHKfiupQkdB2HuuujmU.jpg',
+    url: 'https://cdn.mos.cms.futurecdn.net/95zaHKfiupQkdB2HuuujmU.jpg',duration:2000
   },
   {
-    url: 'https://www.hdwallpapers.in/download/decorated_hanging_light_bed_glass_window_4k_hd_room-3840x2160.jpg',
+    url: 'https://www.hdwallpapers.in/download/decorated_hanging_light_bed_glass_window_4k_hd_room-3840x2160.jpg',duration:2000
   },
   {
-    url: 'https://static.vecteezy.com/system/resources/previews/036/155/369/non_2x/ai-generated-washing-machine-in-laundromat-laundry-room-interior-photo.jpg',
+    url: 'https://static.vecteezy.com/system/resources/previews/036/155/369/non_2x/ai-generated-washing-machine-in-laundromat-laundry-room-interior-photo.jpg',duration:2000
   },
   {
-    url: 'https://www.thebrick.com/cdn/shop/products/cy793alanvsn52mvj0pc_1500x.jpg?v=1569300526',
+    url: 'https://www.thebrick.com/cdn/shop/products/cy793alanvsn52mvj0pc_1500x.jpg?v=1569300526',duration:2000
   },
 ];
 
